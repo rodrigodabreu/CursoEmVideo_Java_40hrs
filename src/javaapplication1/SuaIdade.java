@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class SuaIdade {
     public static void main(String args[]) {
-        Scanner scanner = new Scanner (System.in);
+    
+    Scanner scanner = new Scanner (System.in);
     
     System.out.print("Digite um número: ");
     int n1 = scanner.nextInt();
@@ -13,7 +14,6 @@ public class SuaIdade {
     int s = n1 + n2;
     
     System.out.println("O resultado da soma dos dois números é: " + s);
-    
     
     scanner.close();
     }
